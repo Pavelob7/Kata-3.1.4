@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/icons/favicon.svg">
+    <title>Ката 3.1.4</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+
+<!--
+      Дорогой программист:
+      Когда я писал этот код, только бог и я знали, как он работает.
+      Теперь знает только бог!
+
+      Тем не менее, если ты пытаешься что-нибудь оптимизировать
+      и у тебя не получится (вероятнее всего),
+      пожалуйста, увеличь значение счетчика,
+      как предупреждение для следующего человека
+
+      vsego_chasov_potracheno_zdes = 254
+    -->
+
+
+<!--
+ПРИМЕР БЭМ
+https://ru.bem.info/methodology/quick-start/
+
+<div class="prof-skills">-->
+<!--    &lt;!&ndash; элементы &ndash;&gt;-->
+<!--    <div class="prof-skills__my-skills-img"></div>-->
+<!--    <div class="prof-skills__title title"></div>-->
+<!--    <div class="prof-skills__desc"></div>-->
+<!--</div>
+
+-->
+
+<!-- шапка -->
+<header class="header">
+    <div class="header__wrapper">
+        <div class="header__navigation">
+            <button class="header__navigation-btn">
+                <span class="header__navigation-svg">
+                    <img src="./assets/icons/burger.svg" alt="burger" class="header__navigation-img">
+                </span>
+            </button>
+            <img src="./assets/icons/logo.svg" alt="logo" class="header__navigation-logo">
+        </div>
+        <div class="header__nav">
+            <div class="header__nav-list">
+                <button class="header__nav-item header__nav-item--call"></button>
+                <button class="header__nav-item header__nav-item--chat"></button>
+                <button class="header__nav-item header__nav-item--profile"></button>
+                <button class="header__nav-item header__nav-item--repair"></button>
+                <button class="header__nav-item header__nav-item--check"></button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- основная часть -->
+
+<main class="main">
+    <div class="main__caption">
+        <h1 class="main__caption-title">Услуги и сервисы</h1>
+        <div class="main__caption-nav">
+            <button class="main__caption-nav-item">
+                <span class="main__caption-name">Оставить заявку</span>
+                <img src="./assets/icons/repair.svg" alt="repair">
+            </button>
+
+            <button class="main__caption-nav-item">
+                <span class="main__caption-name">Статус ремонта</span>
+                <img src="./assets/icons/check.svg" alt="check">
+            </button>
+        </div>
+    </div>
+    <nav class="main__navigation">
+        <ul class="main__navigation-list">
+            <li class="main__navigation-item"><a href="#">Дополнительные услуги</a></li>
+            <li class="main__navigation-item"><a href="#">Цены на услуги</a></li>
+            <li class="main__navigation-item"><a href="#">Адреса сервисных центров</a></li>
+            <li class="main__navigation-item"><a href="#">Цены на услуги</a></li>
+            <li class="main__navigation-item"><a href="#">Специальные цены</a></li>
+            <li class="main__navigation-item"><a href="#">Отзывы</a></li>
+        </ul>
+    </nav>
+    <section class="main__content">
+        <div class="main__description">
+            <p class="main__description-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+            <p class="main__description-text main__description-text--one">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера.</p>
+            <p class="main__description-text main__description-text--two"> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+            <div class="main__button">
+                <button class="main__description-btn">Читать далее</button>
+            </div>
+        </div>
+        <img src="./assets/icons/1.png" alt="1" class="main__description-image">
+    </section>
+</main>
+</body>
+</html>
